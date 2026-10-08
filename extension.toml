@@ -1,0 +1,33 @@
+id = "sonarlint"
+name = "SonarLint"
+description = "SonarQube for IDE (SonarLint) language server: inline bugs, vulnerabilities, code smells and secrets."
+version = "0.1.0"
+schema_version = 1
+authors = ["Saksham Mathur <saksham.mathur25@gmail.com>"]
+repository = "https://github.com/saksham/zed-sonarlint"
+
+[language_servers.sonarlint]
+name = "SonarLint"
+languages = [
+  "JavaScript", "TypeScript", "TSX", "JSX", "Python", "Java", "PHP", "HTML",
+  "CSS", "Go", "YAML", "JSON", "XML", "Dockerfile", "Terraform", "C#", "Rust",
+]
+
+[language_servers.sonarlint.language_ids]
+"JavaScript" = "javascript"
+"TypeScript" = "typescript"
+"TSX" = "typescriptreact"
+"JSX" = "javascriptreact"
+"Python" = "python"
+"Java" = "java"
+"PHP" = "php"
+"HTML" = "html"
+"CSS" = "css"
+"Go" = "go"
+"YAML" = "yaml"
+"JSON" = "json"
+"XML" = "xml"
+"Dockerfile" = "dockerfile"
+"Terraform" = "terraform"
+"C#" = "csharp"
+"Rust" = "rust"
